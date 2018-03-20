@@ -1,0 +1,94 @@
+html, body {
+  overflow-x: hidden;
+}
+
+.row {
+  padding-top: 50px;
+}
+
+#front {
+  background-image: url("https://i.pinimg.com/originals/be/55/f7/be55f75c647ba58942d60b398342f256.jpg");
+  height: 100vh;
+  /* background-size: 100% 100%; */
+  color: white;
+}
+
+#front h1 {
+  text-align: center;
+  margin-top: 40vh;
+}
+
+#main-row iframe {
+  width: 100%;
+  height: 90%;
+  /* margin-top: 20vh; */
+}
+
+.btn {
+  opacity: .7;
+}
+
+#footer {
+  border-top: solid 1px grey;
+  padding-bottom: 25px;
+}
+
+#footer .btn {
+  width: 100%;
+}
+
+#social-media {
+  color: white;
+}
+
+#twitter-feed {
+  height: 100% !important;
+}
+
+.twitter-timeline {
+  width: 100%;
+  height: 90% !important;
+}
+
+/* #facebook{
+  height: 100vh !important;
+  width: 100% !important;
+}
+
+#facebook iframe{
+  height: 100% !important;
+  width: 100% !important;
+} */
+
+#facebook-feed {
+  /* margin-left: 40%; */
+  height: 90%;
+}
+
+#food-menu {
+  text-align: center;
+  background-color: #FCFBE3;
+  color: grey;
+}
+
+#food-menu h1 {
+  border-bottom: inset 2px black;
+  font-family: monospace;
+}
+
+#food-menu h4 {
+  text-align: center;
+}
+
+#food-menu p {
+  color: grey;
+  font-weight: 300;
+}
+
+#forms {
+  display: none;
+}
+
+#forms input, #forms .btn {
+  width: 100%;
+}
