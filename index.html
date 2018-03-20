@@ -24,6 +24,8 @@
 </head>
 
 <body>
+
+
   <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
     <a class="navbar-brand" id="admin-login" href="#edit">The Grove - Limerick</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,14 +37,14 @@
           <a class="nav-link" href="#main-row">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" href="#main-row">Contact</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#food-menu">Food Menu</a>
         </li>
-        <li class="nav-item">
+        <!-- <li class="nav-item">
           <a class="nav-link" href="#">Drink Menu</a>
-        </li>
+        </li> -->
         <li class="nav-item">
           <a class="nav-link" href="#social-media">Social Media</a>
         </li>
@@ -53,8 +55,8 @@
   <div class="container-fluid bg-light">
     <div class="row" id="front">
       <div class="col-md-12">
-        <h1> Welcome to the Grove </h1>
-        <a href="#main-row"><button class="btn btn-success offset-7">Continue</button></a>
+        <h1> Welcome To The Grove </h1>
+        <!-- <a href="#main-row"><button class="btn offset-7">Continue</button></a> -->
       </div>
 
 
@@ -91,15 +93,6 @@
 
 
       </div>
-      <!-- <div class="col-md-4">
-        <h3>Get in Touch </h3>
-        <p> email</p>
-        <p> Maybe details on offers such as parties or events you offer </p>
-        <p> facebook </p>
-        <p> phone </p>
-
-
-      </div> -->
       <div class="col-md-8">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2419.9166039040815!2d-8.628623932834463!3d52.66148389431612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485b5c64252efbc5%3A0x4b7dedf5c1696b95!2sThe+Grove!5e0!3m2!1sen!2sie!4v1520797631775"
           frameborder="0" style="border:0" allowfullscreen></iframe>
@@ -111,53 +104,28 @@
     <!-- end row -->
 
     <div class="row bg-dark" id="social-media">
-      <div class="col-md-4">
-        <a class="twitter-timeline" data-chrome="noheader nofooter noborders transparent noscrollbar" href="https://twitter.com/hashtag/Limerick" id="twitter-feed" data-widget-id="972870495619215360">#Limerick Tweets</a>
-        <script>
-          ! function(d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0],
-              p = /^http:/.test(d.location) ? 'http' : 'https';
-            if (!d.getElementById(id)) {
-              js = d.createElement(s);
-              js.id = id;
-              js.src = p + "://platform.twitter.com/widgets.js";
-              fjs.parentNode.insertBefore(js, fjs);
-            }
-          }(document, "script", "twitter-wjs");
-        </script>
-      </div>
-      <div class="col-md-5" id="facebook">
-        <h3>Social Media</h3>
+      <div class="offset-3 col-md-6">
+        <h3 style="text-align:center">Social Media</h3>
         <p> The best way to keep up to date with what we're doing is to follow us on our social media sites, facebook and twitter. </p>
-
+        <!-- <p> On our facebook page you will find,
+        <ul>
+          <li>Competitions</li>
+          <li>Events</li>
+          <li>Photos</li>
+          <li>Contact</li>
+        </ul>
+ -->
 
       </div>
-      <div class="col-md-3">
-        <!-- <div id="fb-root"></div>
-        <script>
-          (function(d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s);
-            js.id = id;
-            js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.12';
-            fjs.parentNode.insertBefore(js, fjs);
-          }(document, 'script', 'facebook-jssdk'));
-        </script>
+      <div class="offset-4 col-md-4" id="facebook">
+        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fthegrovelimerick%2F&tabs=timeline&width=500&height=500&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId"
+          height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
 
-        <div class="fb-post" data-href="https://www.facebook.com/thegrovelimerick/posts/818974198287823" data-width="500" data-show-text="false">
-          <blockquote cite="https://www.facebook.com/thegrovelimerick/posts/818974198287823" class="fb-xfbml-parse-ignore">
-            <p>She&#039;s almost ready.</p>Posted by <a href="https://www.facebook.com/thegrovelimerick/">The Grove Gastro Pub</a> on&nbsp;<a href="https://www.facebook.com/thegrovelimerick/posts/818974198287823">Tuesday, 6 March 2018</a></blockquote>
-        </div> -->
-        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fthegrovelimerick%2F&tabs=timeline&width=450&height=1000&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId" width="500" height="500"
-          style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
       </div>
-
-
 
     </div>
 
-    <div class="row ark" id="food-menu">
+    <div class="row" id="food-menu">
       <div class="col-md-4"></div>
       <div class="col-md-4" id="offset">
 
