@@ -28,6 +28,6 @@
 //
 // }
 
-if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
-  $("#facebook").html("<p>Give us a like on facebook,<a href='https://www.facebook.com/thegrovelimerick/'>The Grove</a>, and stay up to date!</p>");
-}
+// if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+//   $("#facebook").html("<p>Give us a like on facebook,<a href='https://www.facebook.com/thegrovelimerick/'>The Grove</a>, and stay up to date!</p>");
+// }

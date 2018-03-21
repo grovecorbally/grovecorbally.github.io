@@ -73,6 +73,11 @@ iframe {
   font-weight: 300;
 }
 
-#facebook iframe {
-  height: 70vh !important;
+#facebook iframe{
+  width: 100% !important;
+  height: 487px !important;
+}
+
+.widSSP {
+  width: 100% !important;
 }
