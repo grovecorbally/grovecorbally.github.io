@@ -39,7 +39,7 @@ iframe {
 }
 
 #social-media {
-  /* height: 100vh; */
+  height: 100vh;
   color: white;
 }
 
@@ -73,7 +73,7 @@ iframe {
   font-weight: 300;
 }
 
-.widSSP, .fb-page{
+.widSSP, .fb-page, #TA_selfserveprop895{
   width: 468px !important;
-  height: 90% !important;
+  /* height: 90% !important; */
 }
