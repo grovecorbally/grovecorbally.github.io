@@ -21,6 +21,8 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="scripts.js" defer></script>
   <script src="fingerprint.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lobster">
+
 </head>
 
 <body>
@@ -28,13 +30,14 @@
   <div id="fb-root"></div>
   <script>
     (function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.12';
-      fjs.parentNode.insertBefore(js, fjs);
-    }
-    (document, 'script', 'facebook-jssdk'));
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.12';
+        fjs.parentNode.insertBefore(js, fjs);
+      }
+      (document, 'script', 'facebook-jssdk'));
   </script>
 
 
@@ -67,8 +70,9 @@
 
   <div class="container-fluid bg-light">
     <div class="row" id="front">
-      <div class="col-md-12">
-        <h1> Welcome To The Grove </h1>
+      <img src="https://scontent-dub4-1.xx.fbcdn.net/v/t1.0-9/29178590_822110444640865_1535703683109486592_o.jpg?oh=261235af29f818d8bd63977981316d63&oe=5B4BB58F">
+      <div class="col-md-12 centered">
+        <h1>The Grove Gastro Pub<br>-Limerick City</br></h1>
         <!-- <a href="#main-row"><button class="btn offset-7">Continue</button></a> -->
       </div>
 
@@ -124,7 +128,11 @@
 
       </div>
       <div class="col-md-4" id="tripadvisor">
-        <div id="TA_selfserveprop895" class="TA_selfserveprop"><ul id="ieqMJH4k0" class="TA_links PkAanDgz"><li id="yQoFgZw" class="unhsds"><a target="_blank" href="https://www.tripadvisor.ie/"><img src="https://www.tripadvisor.ie/img/cdsi/img2/branding/150_logo-11900-2.png" alt="TripAdvisor"/></a></li></ul></div>
+        <div id="TA_selfserveprop895" class="TA_selfserveprop">
+          <ul id="ieqMJH4k0" class="TA_links PkAanDgz">
+            <li id="yQoFgZw" class="unhsds"><a target="_blank" href="https://www.tripadvisor.ie/"><img src="https://www.tripadvisor.ie/img/cdsi/img2/branding/150_logo-11900-2.png" alt="TripAdvisor"/></a></li>
+          </ul>
+        </div>
         <script async src="https://www.jscache.com/wejs?wtype=selfserveprop&amp;uniq=895&amp;locationId=3167543&amp;lang=en_IE&amp;rating=true&amp;nreviews=4&amp;writereviewlink=true&amp;popIdx=true&amp;iswide=true&amp;border=true&amp;display_version=2"></script>
 
 
@@ -133,13 +141,25 @@
         <div class="fb-page" data-href="https://www.facebook.com/thegrovelimerick/" data-tabs="timeline" data-width="468" data-height="540" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false">
           <blockquote cite="https://www.facebook.com/thegrovelimerick/" class="fb-xfbml-parse-ignore">
             <a href="https://www.facebook.com/thegrovelimerick/">The Grove Gastro Pub</a>
-          </blockquote></div>
+          </blockquote>
+        </div>
 
       </div>
 
       <div class="col-md-4" id="twitter">
-        <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/hashtag/Limerick" data-widget-id="972870495619215360" data-chrome="">#Limerick Tweets</a>
-  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/hashtag/Limerick" data-widget-id="972870495619215360" data-chrome="nofooter">#Limerick Tweets</a>
+        <script>
+          ! function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0],
+              p = /^http:/.test(d.location) ? 'http' : 'https';
+            if (!d.getElementById(id)) {
+              js = d.createElement(s);
+              js.id = id;
+              js.src = p + "://platform.twitter.com/widgets.js";
+              fjs.parentNode.insertBefore(js, fjs);
+            }
+          }(document, "script", "twitter-wjs");
+        </script>
 
 
       </div>
@@ -184,18 +204,15 @@
       <div class="col-md-3"></div>
       <div class="col-md-2"><a href="#main-row"><button class="btn btn-secondary">Top</button></a></div>
       <div class="col-md-3"></div>
-      <div class="col-md-1 col-xs-6" id="social-footer">
+      <div class="col-md-2 col-xs-6" id="social-footer">
         <a href="https://www.facebook.com/thegrovelimerick/" class="fa fa-facebook" target="_blank"></a>
+        <a href="#" class="fa fa-twitter" target="_blank"></a>
+
       </div>
       <div class="col-md-1 col-xs-6" id="social-footer">
-        <a href="#" class="fa fa-twitter" target="_blank"></a>
       </div>
 
     </div>
-    <div class="row" id="forms">
-      <div class="offset-3" id="edit"></div>
-    </div>
-
   </div>
 
 

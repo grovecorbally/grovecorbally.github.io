@@ -7,15 +7,34 @@ html, body {
 }
 
 #front {
-  background-image: url("https://scontent-dub4-1.xx.fbcdn.net/v/t1.0-9/29178590_822110444640865_1535703683109486592_o.jpg?oh=261235af29f818d8bd63977981316d63&oe=5B4BB58F");
-  height: 100vh;
-  /* background-size: 100% 100%; */
+  position: relative;
+  text-align: center;
   color: black;
+}
+
+.centered {
+  position: absolute;
+  top: 20vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+}
+
+#front img {
+  height: 100vh;
+  width: 100vw;
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
 }
 
 #front h1 {
   text-align: center;
-  margin-top: 40vh;
+  font-weight: 900;
+  font-size: 50px;
+  margin-top: 40vh
+  /* font-family: Lobster; */
 }
 
 iframe {
@@ -31,11 +50,15 @@ iframe {
 
 #footer {
   border-top: solid 1px grey;
-  padding-bottom: 25px;
+  padding-bottom: 10px;
 }
 
 #footer .btn {
   width: 100%;
+}
+
+#social-footer a {
+  padding-left: 30%;
 }
 
 #social-media {
@@ -51,7 +74,6 @@ iframe {
   width: 468px;
   height: 486px !important;
 }
-
 
 #food-menu {
   text-align: center;
