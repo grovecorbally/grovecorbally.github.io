@@ -43,9 +43,9 @@ iframe {
   color: white;
 }
 
-#twitter-feed {
+/* #twitter-feed {
   height: 100% !important;
-}
+} */
 
 .twitter-timeline {
   width: 100%;
@@ -73,10 +73,7 @@ iframe {
   font-weight: 300;
 }
 
-.fb-page{
+.widSSP, .fb-page{
   width: 100% !important;
-}
-
-.widSSP {
-  width: 100% !important;
+  height: 90% !important;
 }
