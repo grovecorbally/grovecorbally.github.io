@@ -48,7 +48,7 @@ iframe {
 } */
 
 .twitter-timeline {
-  width: 100%;
+  width: 468px;
   height: 90% !important;
 }
 
@@ -74,6 +74,6 @@ iframe {
 }
 
 .widSSP, .fb-page{
-  width: 100% !important;
+  width: 468px !important;
   height: 90% !important;
 }
