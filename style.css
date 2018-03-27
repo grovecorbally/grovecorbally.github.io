@@ -73,7 +73,7 @@ iframe {
   font-weight: 300;
 }
 
-.fb-page {
+.fb-page, .fb_iframe_widget {
   width: 100% !important;
-  height: 90% !important;
+  /* height:  !important; */
 }
