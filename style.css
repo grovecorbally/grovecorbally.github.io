@@ -9,7 +9,8 @@ html, body {
 #front {
   position: relative;
   text-align: center;
-  color: white;
+  color: black;
+  font-style: oblique;
 }
 
 .centered {
