@@ -100,3 +100,7 @@ iframe {
   width: 100% !important;
   /* height:  !important; */
 }
+
+.widSSPData {
+  height: 500px;
+}
