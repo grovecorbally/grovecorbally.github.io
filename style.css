@@ -102,5 +102,9 @@ iframe {
 }
 
 .widSSPData {
-  height: 600px;
+  height: 500px;
+}
+
+.chrome {
+  padding-top: 25px;
 }
