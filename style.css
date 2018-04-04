@@ -74,6 +74,7 @@ iframe {
 .twitter-timeline {
   width: 468px;
   height: 486px !important
+  border-radius: 0% !important;
 }
 
 #food-menu {
@@ -100,13 +101,13 @@ iframe {
   width: 100% !important
 }
 
-#facebook {
+blockquote {
   border-radius: 7px !important
 }
 
 .widSSPData {
   border-radius: 7px;
-  height: 487px;
+  height: 486px;
 }
 
 .chrome {
