@@ -73,7 +73,7 @@ iframe {
 
 .twitter-timeline {
   width: 468px;
-  height: 486px !
+  height: 486px !important;
 }
 
 #food-menu {
