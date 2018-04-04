@@ -97,14 +97,16 @@ iframe {
 }
 
 .fb-page, .fb_iframe_widget {
-  width: 100% !important;
-  border-radius: 7px !important;
-  /* height:  !important; */
+  width: 100% !important
+}
+
+#facebook {
+  border-radius: 7px !important
 }
 
 .widSSPData {
   border-radius: 7px;
-  height: 485px;
+  height: 487px;
 }
 
 .chrome {
