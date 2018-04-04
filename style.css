@@ -73,8 +73,7 @@ iframe {
 
 .twitter-timeline {
   width: 468px;
-  height: 486px !important
-  border-radius: 0% !important;
+  height: 486px !
 }
 
 #food-menu {
@@ -99,10 +98,6 @@ iframe {
 
 .fb-page, .fb_iframe_widget {
   width: 100% !important
-}
-
-blockquote {
-  border-radius: 7px !important
 }
 
 .widSSPData {
