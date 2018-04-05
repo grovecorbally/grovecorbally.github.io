@@ -13,11 +13,17 @@ html, body {
   font-style: oblique;
 }
 
+
 .centered {
   position: absolute;
   top: 20vh;
   left: 50vw;
   transform: translate(-50%, -50%);
+  text-shadow:
+    -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white;
 }
 
 #front img {
@@ -35,13 +41,11 @@ html, body {
   font-weight: 900;
   font-size: 50px;
   margin-top: 40vh
-  /* font-family: Lobster; */
 }
 
 iframe {
   width: 100%;
   height: 90% !important;
-  /* margin-top: 20vh; */
 }
 
 .btn {
@@ -67,15 +71,13 @@ iframe {
   color: white;
 }
 
-/* #twitter-feed {
-  height: 100% !important;
-} */
-
 .twitter-timeline {
   width: 468px;
   height: 486px !important;
 }
-
+#food-menu img {
+  width: 100%;
+}
 #food-menu {
   text-align: center;
   background-color: #FCFBE3;
@@ -84,9 +86,8 @@ iframe {
 
 #food-menu h1 {
   border-bottom: inset 2px black;
-  font-family: monospace;
 }
-
+/*
 #food-menu h4 {
   text-align: center;
 }
@@ -94,7 +95,7 @@ iframe {
 #food-menu p {
   color: grey;
   font-weight: 300;
-}
+} */
 
 .fb-page, .fb_iframe_widget {
   width: 100% !important
